@@ -1,0 +1,37 @@
+.header {
+  height: 950px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url(/hero-image.png);
+}
+
+.header__wrapper {
+  width: 700px;
+  margin-left: 30px;
+}
+
+.header__logo {
+  margin-top: 60px;
+  margin-bottom: 140px;
+  display: inline-block;
+}
+
+.header__title {
+  margin-bottom: 20px;
+  color: var(--grey-50);
+  font: 400 44px var(--font-family);
+}
+
+.header__description {
+  color: var(--grey-50);
+  font: 400 16px/26px var(--font-family);
+}
+
+@media screen and (max-width: 788px) {
+  .header__wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+}
