@@ -3,16 +3,16 @@
 }
 
 .post__title {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   color: var(--grey-900);
   font: 400 24px var(--font-family);
 }
 
-.post__list_img {
+.post__list {
   position: relative;
 }
 
-.post__list_img img {
+.post__list img {
   width: 100%;
 }
 

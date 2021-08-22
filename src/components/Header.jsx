@@ -10,8 +10,8 @@ export default function Header() {
         <div className={styles.header__wrapper}>
           <img
             src="/logo.png"
-            className={styles.header__logo}
             alt="Adigo logo"
+            className={styles.header__logo}
           />
 
           <h1 className={styles.header__title}>

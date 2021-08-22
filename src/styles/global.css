@@ -152,6 +152,12 @@ q:before {
   column-gap: 16px;
 }
 
+.line {
+  width: 168px;
+  margin-bottom: 30px;
+  border: 1px solid #3636f0;
+}
+
 @media screen and (max-width: 599px) {
   .container {
     padding-left: 16px;

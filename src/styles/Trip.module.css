@@ -1,10 +1,10 @@
 .trip {
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .trip__title {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   color: var(--grey-900);
   font: 400 24px var(--font-family);
 }
@@ -29,5 +29,6 @@
   position: absolute;
   margin-bottom: 26px;
   color: var(--grey-50);
+  text-transform: capitalize;
   font: 500 26px var(--font-family);
 }

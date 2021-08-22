@@ -10,8 +10,8 @@ export default function Benefit() {
         <h1 className={styles.benefit__title}>Benefits of Odigo</h1>
 
         <div className={styles.benefit__lists}>
-          <div>
-            <img alt="Castle" src="/castle.png" />
+          <div className={styles.benefit__List}>
+            <img alt="Castle icon" src="/castle.png" />
 
             <h1 className={styles.benefit__list_title}>Welcome to Odigo</h1>
 
@@ -21,8 +21,8 @@ export default function Benefit() {
             </p>
           </div>
 
-          <div>
-            <img alt="Person" src="/person.png" />
+          <div className={styles.benefit__List}>
+            <img alt="Person icon" src="/person.png" />
 
             <h1 className={styles.benefit__list_title}>
               Your Personal Japan Guide
@@ -34,8 +34,8 @@ export default function Benefit() {
             </p>
           </div>
 
-          <div>
-            <img alt="Shop" src="/Shop.png" />
+          <div className={styles.benefit__List}>
+            <img alt="Shop icon" src="/Shop.png" />
 
             <h1 className={styles.benefit__list_title}>
               Promoting Local Businesses

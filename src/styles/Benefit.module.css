@@ -1,7 +1,7 @@
 .benefit {
   width: 100%;
   padding: 60px;
-  margin-top: -202px;
+  margin-top: -210px;
   background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -33,6 +33,7 @@
 @media screen and (max-width: 900px) {
   .benefit {
     padding: 30px;
+    margin-top: -230px;
   }
 
   .benefit__title {
@@ -40,7 +41,12 @@
   }
 
   .benefit__lists {
+    gap: 60px;
     align-items: center;
     flex-direction: column;
+  }
+
+  .benefit__List {
+    text-align: center;
   }
 }

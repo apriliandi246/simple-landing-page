@@ -1,17 +1,17 @@
 import React from "react";
-import Trip from "../components/Trip";
-import Post from "../components/Post";
+import Trips from "../components/Trips";
+import Posts from "../components/Posts";
 import Header from "../components/Header";
-import Benefit from "../components/Benefit";
 import Footer from "../components/Footer";
+import Benefit from "../components/Benefit";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Benefit />
-      <Trip />
-      <Post />
+      <Trips />
+      <Posts />
       <Footer />
     </>
   );

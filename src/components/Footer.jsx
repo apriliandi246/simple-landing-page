@@ -1,13 +1,5 @@
 import React from "react";
 
-export default function Footer() {
-  return (
-    <footer style={footerStyle}>
-      <img src="/logo.png" alt="Adigo logo" />
-    </footer>
-  );
-}
-
 const footerStyle = {
   display: "flex",
   padding: "24px",
@@ -16,3 +8,11 @@ const footerStyle = {
   justifyContent: "center",
   backgroundColor: "var(--grey-900)",
 };
+
+export default function Footer() {
+  return (
+    <footer style={footerStyle}>
+      <img src="/logo.png" alt="Adigo logo" />
+    </footer>
+  );
+}
