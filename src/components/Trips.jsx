@@ -8,10 +8,12 @@ const tripPlaces = [
   {
     id: 1,
     name: "mount fuji",
+    status: "large",
   },
   {
     id: 2,
     name: "kyoto",
+    status: "large",
   },
   {
     id: 3,
@@ -37,7 +39,11 @@ export default function Trip() {
 
         <div className="grid">
           {tripPlaces.map(place => (
-            <TripPlace key={place.id} placeName={place.name} />
+            <TripPlace
+              key={place.id}
+              status={place.status}
+              placeName={place.name}
+            />
           ))}
         </div>
       </div>
